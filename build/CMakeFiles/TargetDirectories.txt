@@ -1,0 +1,3 @@
+/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles/rebuild_cache.dir
+/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles/edit_cache.dir
+/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles/example0201-1.dir
