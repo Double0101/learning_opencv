@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/double/Documents/workspace/OpenCV/learning_opencv/example0201-1.cpp
+/home/double/Documents/workspace/OpenCV/learning_opencv/example0204.cpp
 opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+iostream
+-
+fstream
 -
 
 /usr/local/include/opencv/cxcore.h
@@ -829,6 +835,10 @@ opencv2/highgui.hpp
 /usr/local/include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
+
+/usr/local/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h
