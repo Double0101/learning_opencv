@@ -60,6 +60,117 @@ CMAKE_SOURCE_DIR = /home/double/Documents/workspace/OpenCV/learning_opencv
 CMAKE_BINARY_DIR = /home/double/Documents/workspace/OpenCV/learning_opencv/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/example0211.dir
+
+# All Build rule for target.
+CMakeFiles/example0211.dir/all:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/depend
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles --progress-num=13,14 "Built target example0211"
+.PHONY : CMakeFiles/example0211.dir/all
+
+# Include target in all.
+all: CMakeFiles/example0211.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example0211.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example0211.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/example0211.dir/rule
+
+# Convenience name for target.
+example0211: CMakeFiles/example0211.dir/rule
+
+.PHONY : example0211
+
+# clean rule for target.
+CMakeFiles/example0211.dir/clean:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/clean
+.PHONY : CMakeFiles/example0211.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/example0211.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/example0210.dir
+
+# All Build rule for target.
+CMakeFiles/example0210.dir/all:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/depend
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles --progress-num=11,12 "Built target example0210"
+.PHONY : CMakeFiles/example0210.dir/all
+
+# Include target in all.
+all: CMakeFiles/example0210.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example0210.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example0210.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/example0210.dir/rule
+
+# Convenience name for target.
+example0210: CMakeFiles/example0210.dir/rule
+
+.PHONY : example0210
+
+# clean rule for target.
+CMakeFiles/example0210.dir/clean:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/clean
+.PHONY : CMakeFiles/example0210.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/example0210.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/example0206.dir
+
+# All Build rule for target.
+CMakeFiles/example0206.dir/all:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/depend
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles --progress-num=9,10 "Built target example0206"
+.PHONY : CMakeFiles/example0206.dir/all
+
+# Include target in all.
+all: CMakeFiles/example0206.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example0206.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example0206.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/example0206.dir/rule
+
+# Convenience name for target.
+example0206: CMakeFiles/example0206.dir/rule
+
+.PHONY : example0206
+
+# clean rule for target.
+CMakeFiles/example0206.dir/clean:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/clean
+.PHONY : CMakeFiles/example0206.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/example0206.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/example0201-1.dir
 
 # All Build rule for target.
@@ -167,6 +278,43 @@ CMakeFiles/example0204.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/example0204.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/example0205.dir
+
+# All Build rule for target.
+CMakeFiles/example0205.dir/all:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/depend
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles --progress-num=7,8 "Built target example0205"
+.PHONY : CMakeFiles/example0205.dir/all
+
+# Include target in all.
+all: CMakeFiles/example0205.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example0205.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example0205.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/double/Documents/workspace/OpenCV/learning_opencv/build/CMakeFiles 0
+.PHONY : CMakeFiles/example0205.dir/rule
+
+# Convenience name for target.
+example0205: CMakeFiles/example0205.dir/rule
+
+.PHONY : example0205
+
+# clean rule for target.
+CMakeFiles/example0205.dir/clean:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/clean
+.PHONY : CMakeFiles/example0205.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/example0205.dir/clean
 
 .PHONY : clean
 

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/double/Documents/workspace/OpenCV/learning_opencv/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named example0211
+
+# Build rule for target.
+example0211: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example0211
+.PHONY : example0211
+
+# fast build rule for target.
+example0211/fast:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/build
+.PHONY : example0211/fast
+
+#=============================================================================
+# Target rules for targets named example0210
+
+# Build rule for target.
+example0210: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example0210
+.PHONY : example0210
+
+# fast build rule for target.
+example0210/fast:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/build
+.PHONY : example0210/fast
+
+#=============================================================================
+# Target rules for targets named example0206
+
+# Build rule for target.
+example0206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example0206
+.PHONY : example0206
+
+# fast build rule for target.
+example0206/fast:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/build
+.PHONY : example0206/fast
 
 #=============================================================================
 # Target rules for targets named example0201-1
@@ -148,6 +187,19 @@ example0204: cmake_check_build_system
 example0204/fast:
 	$(MAKE) -f CMakeFiles/example0204.dir/build.make CMakeFiles/example0204.dir/build
 .PHONY : example0204/fast
+
+#=============================================================================
+# Target rules for targets named example0205
+
+# Build rule for target.
+example0205: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example0205
+.PHONY : example0205
+
+# fast build rule for target.
+example0205/fast:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/build
+.PHONY : example0205/fast
 
 example0201-1.o: example0201-1.cpp.o
 
@@ -230,17 +282,129 @@ example0204.cpp.s:
 	$(MAKE) -f CMakeFiles/example0204.dir/build.make CMakeFiles/example0204.dir/example0204.cpp.s
 .PHONY : example0204.cpp.s
 
+example0205.o: example0205.cpp.o
+
+.PHONY : example0205.o
+
+# target to build an object file
+example0205.cpp.o:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/example0205.cpp.o
+.PHONY : example0205.cpp.o
+
+example0205.i: example0205.cpp.i
+
+.PHONY : example0205.i
+
+# target to preprocess a source file
+example0205.cpp.i:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/example0205.cpp.i
+.PHONY : example0205.cpp.i
+
+example0205.s: example0205.cpp.s
+
+.PHONY : example0205.s
+
+# target to generate assembly for a file
+example0205.cpp.s:
+	$(MAKE) -f CMakeFiles/example0205.dir/build.make CMakeFiles/example0205.dir/example0205.cpp.s
+.PHONY : example0205.cpp.s
+
+example0206.o: example0206.cpp.o
+
+.PHONY : example0206.o
+
+# target to build an object file
+example0206.cpp.o:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/example0206.cpp.o
+.PHONY : example0206.cpp.o
+
+example0206.i: example0206.cpp.i
+
+.PHONY : example0206.i
+
+# target to preprocess a source file
+example0206.cpp.i:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/example0206.cpp.i
+.PHONY : example0206.cpp.i
+
+example0206.s: example0206.cpp.s
+
+.PHONY : example0206.s
+
+# target to generate assembly for a file
+example0206.cpp.s:
+	$(MAKE) -f CMakeFiles/example0206.dir/build.make CMakeFiles/example0206.dir/example0206.cpp.s
+.PHONY : example0206.cpp.s
+
+example0210.o: example0210.cpp.o
+
+.PHONY : example0210.o
+
+# target to build an object file
+example0210.cpp.o:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/example0210.cpp.o
+.PHONY : example0210.cpp.o
+
+example0210.i: example0210.cpp.i
+
+.PHONY : example0210.i
+
+# target to preprocess a source file
+example0210.cpp.i:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/example0210.cpp.i
+.PHONY : example0210.cpp.i
+
+example0210.s: example0210.cpp.s
+
+.PHONY : example0210.s
+
+# target to generate assembly for a file
+example0210.cpp.s:
+	$(MAKE) -f CMakeFiles/example0210.dir/build.make CMakeFiles/example0210.dir/example0210.cpp.s
+.PHONY : example0210.cpp.s
+
+example0211.o: example0211.cpp.o
+
+.PHONY : example0211.o
+
+# target to build an object file
+example0211.cpp.o:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/example0211.cpp.o
+.PHONY : example0211.cpp.o
+
+example0211.i: example0211.cpp.i
+
+.PHONY : example0211.i
+
+# target to preprocess a source file
+example0211.cpp.i:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/example0211.cpp.i
+.PHONY : example0211.cpp.i
+
+example0211.s: example0211.cpp.s
+
+.PHONY : example0211.s
+
+# target to generate assembly for a file
+example0211.cpp.s:
+	$(MAKE) -f CMakeFiles/example0211.dir/build.make CMakeFiles/example0211.dir/example0211.cpp.s
+.PHONY : example0211.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... example0211"
+	@echo "... example0210"
+	@echo "... rebuild_cache"
+	@echo "... example0206"
 	@echo "... edit_cache"
 	@echo "... example0201-1"
 	@echo "... example0202"
 	@echo "... example0204"
-	@echo "... rebuild_cache"
+	@echo "... example0205"
 	@echo "... example0201-1.o"
 	@echo "... example0201-1.i"
 	@echo "... example0201-1.s"
@@ -250,6 +414,18 @@ help:
 	@echo "... example0204.o"
 	@echo "... example0204.i"
 	@echo "... example0204.s"
+	@echo "... example0205.o"
+	@echo "... example0205.i"
+	@echo "... example0205.s"
+	@echo "... example0206.o"
+	@echo "... example0206.i"
+	@echo "... example0206.s"
+	@echo "... example0210.o"
+	@echo "... example0210.i"
+	@echo "... example0210.s"
+	@echo "... example0211.o"
+	@echo "... example0211.i"
+	@echo "... example0211.s"
 .PHONY : help
 
 
